@@ -1,0 +1,18 @@
+# Binarios: se compilan en cada maquina (ver INSTALAR.md)
+vulnerable
+seguro
+seguro2
+# Archivos que genera la demo al correr
+volcado_*
+core
+core.[0-9]*
+fifo_*
+salida_*.txt
+demo_salida.txt
+tpm_state/
+*.ctx
+swtpm.log
+__pycache__/
+# Valores originales del kernel que guarda preparar.sh (son de cada VM)
+.ptrace_original
+.core_pattern_original
